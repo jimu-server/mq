@@ -3,7 +3,7 @@ package rabbmq
 import (
 	"context"
 	"fmt"
-	"github.com/jimu-server/logger/logger"
+	"github.com/jimu-server/logger"
 	"github.com/jimu-server/model"
 	"github.com/jimu-server/mq/mq_key"
 	jsoniter "github.com/json-iterator/go"

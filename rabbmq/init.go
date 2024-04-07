@@ -2,8 +2,8 @@ package rabbmq
 
 import (
 	"fmt"
-	"github.com/jimu-server/config/config"
-	"github.com/jimu-server/logger/logger"
+	"github.com/jimu-server/config"
+	"github.com/jimu-server/logger"
 	"github.com/jimu-server/mq/mapper"
 	"github.com/jimu-server/mq/mq_key"
 	amqp "github.com/rabbitmq/amqp091-go"
