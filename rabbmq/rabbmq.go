@@ -13,7 +13,7 @@ import (
 
 var Client *amqp.Connection
 
-// CreateUserTaskQueue 创建用户任务队列
+// CreateUserNotifyQueue 创建用户任务队列
 func CreateUserNotifyQueue(id string) {
 	var err error
 	var ch *amqp.Channel
